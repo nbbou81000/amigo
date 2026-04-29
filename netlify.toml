@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
+
+# Tirage automatique toutes les 5 minutes (cron UTC)
+[functions.draw]
+  schedule = "*/5 * * * *"

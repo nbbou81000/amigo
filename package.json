@@ -1,0 +1,9 @@
+{
+  "name": "amigo-gold",
+  "version": "2.0.0",
+  "description": "Loto Amigo Gold — simulation officielle",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
